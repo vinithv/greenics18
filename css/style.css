@@ -1,0 +1,318 @@
+/*********************
+MDBootstrap - Magic Portfolio
+**********************/
+
+html,
+body {
+    height: 100%;
+    background-color:;
+}
+
+
+/* Carousel */
+
+.carousel {
+    height: 100%;
+}
+.carousel .item {
+    height: 100%; 
+}
+
+.carousel .active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+#carousel-bg .item video { 
+    opacity: 0.4;   
+}
+.carousel-full-bg .carousel-caption  {
+    margin-bottom: 22%;
+    margin-top: 22%;
+}
+@media only screen and (max-width: 767px) {
+    .carousel-full-bg .carousel-caption {
+        margin-bottom: 25%;
+    }
+}
+/* Footer normalize */
+
+footer.page-footer {
+    margin-top: 0;
+    background-color:#1C2331; 
+}
+/* Navbar normalize */
+ .intro-2 {
+            background: url("../images/bg.jpg")no-repeat center center;
+            background-size: cover;
+        }
+
+.navbar {
+    z-index: 999;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-header,
+    .navbar-collapse {
+        background-color: #1C2331;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .navbar-nav li a {
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .navbar-nav li a {
+        font-size: 1em;
+    }
+}
+
+.top-nav-collapse {
+    background-color:#1C2331;
+}
+
+/* Typography */
+
+@media only screen and (max-width: 600px) {
+    h2,
+    h3 {
+        font-size: 2em
+    }
+}
+
+/* Sections */
+
+.section-white .avatar-ws {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 2em
+}
+
+.section-white-0 {
+    margin: 0;
+    padding: 0;
+}
+
+.section-white .contact-data li p {
+    text-align: center;
+}
+
+/* Tiled gallery */
+
+.tiled-gallery .tile-1 {
+    background-image: url(../images/geo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-2 {
+    background-image: url(../images/sri.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-3 {
+    background-image: url(../images/andhra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-4 {
+    background-image: url(../images/terzaghi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-5 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/wedding899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-6 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kfi7dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-7 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/motion899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-8 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/food899.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tiled-gallery .tile-9 {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/emotion28992.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Parallax */
+
+#par-about-me {
+    background-image: url(../images/anna.jpg);
+}
+
+
+#par-workshop {
+    background-image: url(../images/tractor.jpg);
+   }
+
+#blog {
+    background-image: url(http://mdbootstrap.com/wp-content/uploads/2015/10/kfi5dark.jpg);
+}
+
+.parallax .avatar-ws {
+    margin-bottom: 3em;
+    width: 20%;
+    opacity: 0.8
+}
+
+.parallax {
+    color: #fff;
+}
+.parallax-container .container-small img {
+    opacity: 1;
+}
+
+.parallax-image {
+ opacity: 0.4
+ }
+.parallax-container h3 {
+    margin-bottom: 1em;
+}
+
+.parallax-container .avatar-ws {
+    margin-bottom: 3em;
+    width: 20%;
+    opacity: 0.8
+}
+
+.parallax-container .container-small img {
+    opacity: 1;
+}
+
+/* Lightbox Gallery */
+
+.light-box-gallery .margin-top {
+    margin-top: 10em;
+}
+
+.light-box-gallery .portfolio-item {
+    margin: 0;
+    padding: 0;
+}
+
+/* Animations */
+.carousel-caption {
+animation-duration: 4s;
+animation-delay: 0.3s;
+  
+}
+
+/* gradient*/
+.juicy-peach-gradient {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.young-passion-gradient {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.lady-lips-gradient {
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+.sunny-morning-gradient {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.rainy-ashville-gradient {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.frozen-dreams-gradient {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+.warm-flame-gradient {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+.night-fade-gradient {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.spring-warmth-gradient {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.winter-neva-gradient {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.dusty-grass-gradient {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.tempting-azure-gradient {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.heavy-rain-gradient {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.amy-crisp-gradient {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.mean-fruit-gradient {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+.deep-blue-gradient {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.ripe-malinka-gradient {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.cloudy-knoxville-gradient {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.morpheus-den-gradient {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.rare-wind-gradient {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.near-moon-gradient {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+.img-gradient {
+    position:relative;
+    display:inline-block;
+}
+.img-gradient:after {
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
+    display:inline-block;
+    background: -moz-linear-gradient(top, rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(220, 66, 37, 0.5)), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,47,75,0.5) 0%,rgba(220, 66, 37, 0.5) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.img-gradient img{
+    display:block;
+}
+
+.img-gradient-overlay { /* FF3.6+ */ /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    background: -o-linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    background: linear-gradient(rgba(0,47,75,0.5) 0%, rgba(220, 66, 37, 0.5) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */ /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    border-radius: .3rem;
+}
